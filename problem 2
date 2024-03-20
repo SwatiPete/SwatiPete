@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Login Page</title>
+    
+</head>
+<body>
+    <!-- Login Form -->
+    <div id="loginForm" class="form">
+        <h2>Login</h2>
+        <input type="text" placeholder="Phone Number/Email" required>
+        <input type="password" placeholder="Password" required>
+        <button>Login</button>
+        <a href="#forgotPasswordForm">Forgot Password?</a>
+        <a href="#registrationForm">Register Now</a>
+    </div>
+
+    <!-- Registration Form -->
+    <div id="registrationForm" class="form">
+        <h2>Register</h2>
+        <input type="text" placeholder="Phone Number" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <button>Register Now</button>
+        <a href="#loginForm">Login</a>
+    </div>
+
+    <!-- Forgot Password Form -->
+    <div id="forgotPasswordForm" class="form">
+        <h2>Forgot Password</h2>
+        <input type="email" placeholder="Confirm Email ID" required>
+        <button>Send OTP</button>
+    </div>
+
+    <!-- OTP Verification Form -->
+    <div id="otpVerificationForm" class="form">
+        <h2>Verify OTP</h2>
+        <input type="text" placeholder="Enter OTP" required>
+        <button>Confirm OTP</button>
+    </div>
+
+    <!-- Confirm Password Form -->
+    <div id="confirmPasswordForm" class="form">
+        <h2>Confirm Password</h2>
+        <input type="password" placeholder="New Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <button>Reset Password</button>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard">
+        <header>
+            <h2>Welcome User</h2>
+            <a href="#">View Profile</a>
+            <a href="#">Logout</a>
+        </header>
+        <aside>
+            <!-- Sidebar Navigation -->
+        </aside>
+        <main>
+            <!-- Main Content -->
+        </main>
+    </div>
+</body>
+</html>
